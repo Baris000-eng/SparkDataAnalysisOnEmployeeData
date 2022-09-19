@@ -40,7 +40,8 @@ public class SparkProductProject {
         countPriceDS.show();
 
 
-
+         //globalTempView = cluster üzerinde oluşturuyor. sessiondan bağımsız.
+        //createOrReplaceTempView = session bazlı, view sadece sana görünür.
         rawDataset.createOrReplaceTempView("product");
         Dataset<Row> sqlDataSet = sparkSession.sql("select * from product");
         sqlDataSet.show();
@@ -48,6 +49,10 @@ public class SparkProductProject {
         Dataset<Row>sqlSecondDataSet = sparkSession.sql("select firstName,lastName FROM product");
         sqlSecondDataSet.show();
 
+
+        
+        
+       
 
 
 
