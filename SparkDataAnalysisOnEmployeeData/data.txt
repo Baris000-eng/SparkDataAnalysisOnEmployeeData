@@ -1,0 +1,12 @@
+Barış,Kaplan,bkaplan18@ku.edu.tr,Male,Uzbekistan,39
+Mike,Teeve,mteeve@yale.edu,Male,USA,29
+Jane,Joden,jjoden@harvard.edu,Female,USA,49
+Joe,Joden,bkaplan18@ku.edu.tr,Male,Uzbekistan,39
+Mike,Michelson,mteeve@yale.edu,Male,USA,29
+Jane,Joden,jjoden@harvard.edu,Female,USA,49
+Barış,Kaplan,bkaplan18@ku.edu.tr,Male,Uzbekistan,39
+Vladimir,Kurschacov,mteeve@yale.edu,Male,Russia,29
+Jane,Joden,jjoden@harvard.edu,Female,USA,49
+Amir,Harimi,bkaplan18@ku.edu.tr,Male,Egypt,39
+Mike,Beeve,mteeve@yale.edu,Male,United Kingdom,29
+Michael,Jackson,jjoden@harvard.edu,Female,USA,49
