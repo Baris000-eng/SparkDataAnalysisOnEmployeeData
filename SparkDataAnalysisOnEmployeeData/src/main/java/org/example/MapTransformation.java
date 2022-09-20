@@ -13,6 +13,7 @@ import java.util.Iterator;
 
 public class MapTransformation {
     public static void main(String[] args) {
+         System.setProperty("hadoop.home.dir","/Users/barissss/Desktop/hadoop-common-2.2.0-bin-master");
         JavaSparkContext javaSparkContext = new JavaSparkContext("local", "Map Transformation Spark");
         JavaRDD<String> data = javaSparkContext.textFile("data.csv");
         System.out.println(data.count()); //for displaying the data count inside the "data.csv" file.
