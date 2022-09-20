@@ -6,6 +6,7 @@ import org.apache.spark.api.java.function.VoidFunction;
 
 public class ActionApplication {
     public static void main(String[] args) {
+         System.setProperty("hadoop.home.dir","/Users/barissss/Desktop/hadoop-common-2.2.0-bin-master");
         JavaSparkContext javaSparkContext = new JavaSparkContext("local","Action Application");
         JavaRDD<String> data = javaSparkContext.textFile("data.csv");
         System.out.println("Data count is: "+ data.count()); //for finding total data count
