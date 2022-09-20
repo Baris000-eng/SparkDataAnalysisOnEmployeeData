@@ -9,7 +9,7 @@ import javax.xml.crypto.Data;
 
 public class SparkProductProject {
     public static void main(String[] args) {
-       
+         System.setProperty("hadoop.home.dir","/Users/barissss/Desktop/hadoop-common-2.2.0-bin-master");
         StructType schema = new StructType()
                 .add("firstName", DataTypes.StringType)
                 .add("lastName", DataTypes.StringType)
