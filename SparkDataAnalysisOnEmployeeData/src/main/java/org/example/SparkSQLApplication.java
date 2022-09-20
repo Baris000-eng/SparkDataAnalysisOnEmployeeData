@@ -8,6 +8,7 @@ import org.apache.spark.sql.types.StructType;
 
 public class SparkSQLApplication {
     public static void main(String[] args) {
+         System.setProperty("hadoop.home.dir","/Users/barissss/Desktop/hadoop-common-2.2.0-bin-master");
         StructType schema =
                 new StructType().
                 add("firstName", DataTypes.StringType).
